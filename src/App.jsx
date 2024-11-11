@@ -15,7 +15,7 @@ function App() {
         <div>
             <Header />
             <main>
-                //core concepts part
+                {/* core concepts part */}
                 <section id="core-concepts">
                     <h2>Core Concepts</h2>
                     <ul>
@@ -24,7 +24,7 @@ function App() {
                         ))}
                     </ul>
                 </section>
-                //button part
+                {/* button part */}
                 <section id="examples">
                     <h2>Examples</h2>
                     <menu>
@@ -53,7 +53,9 @@ function App() {
                             State
                         </TabButton>
                     </menu>
-                    //content display part on clink
+
+                    {/* content display part on clink */}
+
                     {!selectedTopic ? (
                         <p>Please select a topic</p>
                     ) : (
