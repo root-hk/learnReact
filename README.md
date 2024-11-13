@@ -1,1 +1,2 @@
-#in this section in m learning about components and props
+#React essentials#
+Just a tutorial
